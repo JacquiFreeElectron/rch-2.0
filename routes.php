@@ -5,4 +5,6 @@
 return [
     # Ex: The path `/` will trigger the `index` method within the `AppController`
     '/' => ['AppController', 'index'],
+    '/materials' => ['AppController', 'materials'],
+    '/interview' => ['AppController', 'interview'],
 ];
