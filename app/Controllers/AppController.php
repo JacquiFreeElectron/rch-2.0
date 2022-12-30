@@ -17,4 +17,9 @@ class AppController extends Controller
     {
         return $this->app->view('materials');
     }
+
+    public function interview()
+    {
+        return $this->app->view('interview');
+    }
 }

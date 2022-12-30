@@ -14,6 +14,10 @@
 
     <a href="/ds160">DS160表格填写指南</a>
     <a href="/other">其他所需材料总览</a>
+    </br>
+
+    <button type="button"><a href="/">返回上级</a></button>
+    <button type="button"><a href="/">返回主页</a></button>
 
 
 @endsection
