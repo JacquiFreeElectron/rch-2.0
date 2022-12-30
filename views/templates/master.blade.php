@@ -6,7 +6,7 @@
 
     <meta charset='utf-8'>
 
-    <link rel='shortcut icon' href='/favicon.ico'>
+    <link rel='shortcut icon' href='/rch.ico'>
     <style> @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap'); </style>
 
     <link href='/css/rch.css' rel='stylesheet'>
