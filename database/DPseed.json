@@ -1,0 +1,22 @@
+{
+    "1": {
+        "id": 1,
+        "category": "F1",
+        "date": "2022-11-28",
+        "location": "上海",
+        "vo": "白人地中海中年男性",
+        "description": "问了去哪个学校，学什么，谁是资助人",
+        "result": "通过",
+        "background": "美本大学生transfer换F1"
+    },
+    "2": {
+        "id": 2,
+        "category": "F1",
+        "date": "2022-11-29",
+        "location": "上海",
+        "vo": "亚裔年轻女性，语速快",
+        "description": "问了去哪个学校，谁是资助人，如果疫情再爆发还回国么",
+        "result": "通过",
+        "background": "美本转校"
+    }
+}

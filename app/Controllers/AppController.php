@@ -18,8 +18,22 @@ class AppController extends Controller
         return $this->app->view('materials');
     }
 
+    //show the overveiw of all dp
     public function interview()
     {
-        return $this->app->view('interview');
+        $interveiws = $this->app->db()->all("interviews");
+        return $this->app->view('interview',['interview'=>$interveiws]);
+    }
+
+    //for user to fill in their dp of interview
+    public function filldp()
+    {
+
+    }
+
+    //show the detail of one specific dp
+    public function readdp()
+    {
+
     }
 }

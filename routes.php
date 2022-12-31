@@ -7,4 +7,6 @@ return [
     '/' => ['AppController', 'index'],
     '/materials' => ['AppController', 'materials'],
     '/interview' => ['AppController', 'interview'],
+    '/interview/filldp' => ['AppController', 'filldp'],
+    '/interview/readdp' => ['AppController', 'readdp'],
 ];
