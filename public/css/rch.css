@@ -32,3 +32,36 @@ button a:active {
     font-family: 'Prosto One', cursive;
     text-decoration: underline;
 }
+
+#interview-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+a.interview-link:link,
+a.interview-link:visited,
+a.interview-link:active,
+a.interview-link:hover {
+    text-decoration: none;
+    color: #111111;
+    cursor: pointer;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    min-width: 300px;
+}
+
+a.interview-link:hover {
+    border: 1px solid black;
+}
+
+.interview-category {
+    height: 50px;
+    font-size: 2rem;
+    margin: 5px 0 10px 0;
+    vertical-align: baseline;
+}

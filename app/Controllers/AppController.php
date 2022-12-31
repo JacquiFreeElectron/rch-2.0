@@ -21,8 +21,8 @@ class AppController extends Controller
     //show the overveiw of all dp
     public function interview()
     {
-        $interveiws = $this->app->db()->all("interviews");
-        return $this->app->view('interview',['interview'=>$interveiws]);
+        $interviews = $this->app->db()->all("interviews");
+        return $this->app->view('interview',['interviews'=>$interviews]);
     }
 
     //for user to fill in their dp of interview

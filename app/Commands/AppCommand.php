@@ -39,7 +39,7 @@ class AppCommand extends Command
            
             unset($interview['id']);
 
-            $this->app->db()->insert('products', $interview);
+            $this->app->db()->insert('interviews', $interview);
         }
     }
 }

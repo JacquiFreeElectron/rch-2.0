@@ -11,7 +11,7 @@ class Interviews
     public function __construct($dataSource)
     {
         $json = file_get_contents($dataSource);
-        $this->products = json_decode($json, true);
+        $this->interviews = json_decode($json, true);
     }
 
     public function getAll()
