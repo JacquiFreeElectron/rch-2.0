@@ -2,6 +2,8 @@
 
 namespace App\Commands;
 
+use App\Interviews;
+
 class AppCommand extends Command
 {
     public function test()
@@ -27,8 +29,19 @@ class AppCommand extends Command
             'description' => 'varchar(500)',
             'result' => 'varchar(10)',
             'background' => 'varchar(500)'
- 
         ]);
+    }
 
+    public function seedInterviews(){
+        $interviews = new Interviews($this->app->path('database/DPseed.json'));
+
+        foreach ($interviews->getAll() as $interview) {
+           
+            unset($interview['id']);
+
+            $this->app->db()->insert('products', $interview);
+        }
     }
 }
+
+
