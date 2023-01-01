@@ -65,3 +65,44 @@ a.interview-link:hover {
     margin: 5px 0 10px 0;
     vertical-align: baseline;
 }
+
+#new-dp-form {
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.info {
+    color: #0d6dfdb1;
+    font-size: 0.9rem;
+}
+
+input[type=text],
+input[type=number] {
+    width: 300px;
+    display: inline;
+}
+
+/* label {
+    text-align: left;
+    display: inline;
+} */
+
+#category {
+    width: 50px;
+}
+
+
+#date,
+#location {
+    width: 150px;
+}
+
+
+#description,
+#background {
+    width: 500px;
+    margin: auto;
+}

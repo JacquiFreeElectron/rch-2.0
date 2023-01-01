@@ -8,5 +8,6 @@ return [
     '/materials' => ['AppController', 'materials'],
     '/interview' => ['AppController', 'interview'],
     '/interview/filldp' => ['AppController', 'filldp'],
+    '/interview/savedp' => ['AppController', 'savedp'],
     '/interview/readdp' => ['AppController', 'readdp'],
 ];

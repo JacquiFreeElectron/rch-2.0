@@ -9,7 +9,7 @@
     <link rel='shortcut icon' href='/rch.ico'>
     <style> @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap'); </style>
 
-    <link href='/css/rch.css' rel='stylesheet'>
+    <link href='/css/runchaohui.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     @yield('head')
