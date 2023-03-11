@@ -13,6 +13,10 @@ class AppController extends Controller
         ]);
     }
 
+    public function helpme(){
+        return $this->app->view('helpme');
+    }
+
     public function materials()
     {
         return $this->app->view('materials');

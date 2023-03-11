@@ -10,4 +10,5 @@ return [
     '/interview/filldp' => ['AppController', 'filldp'],
     '/interview/savedp' => ['AppController', 'savedp'],
     '/interview/readdp' => ['AppController', 'readdp'],
+    '/helpme' => ['AppController', 'helpme']
 ];

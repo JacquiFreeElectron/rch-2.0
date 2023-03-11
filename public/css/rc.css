@@ -1,5 +1,11 @@
 #body {
     text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+ul {
+    list-style: none;
 }
 
 #logo {
@@ -105,4 +111,57 @@ input[type=number] {
 #background {
     width: 500px;
     margin: auto;
+}
+
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    gap: 1rem 1rem;
+    padding: 2rem;
+
+}
+
+.intro div {
+    margin: 1rem 1rem 1rem 1rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20%;
+
+}
+
+.intro div .p {
+    padding: 0.8rem;
+    background-color: rgb(233, 233, 233);
+    border-style: solid;
+    border-color: rgb(233, 233, 233);
+    border-radius: 0.5rem;
+    height: 150px;
+    width: 240px;
+
+}
+
+.helpme {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+
+}
+
+.helpme .fuwu {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20%;
+    height: 200px;
+    width: 500px;
+    align-self: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #d5ebe0ae;
+    border: #d5ebe0ae solid;
+    border-radius: 10px;
 }
